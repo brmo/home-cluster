@@ -4,13 +4,18 @@ kind: Kustomization
 resources:
   - ./bitnami.yaml
   - ./bjw-s.yaml
+  - ./descheduler-charts.yaml
   - ./external-dns.yaml
-  - ./hajimari.yaml
+  - ./grafana-charts.yaml
   - ./ingress-nginx.yaml
   - ./jetstack.yaml
   - ./k8s-gateway.yaml
   - ./kubernetes-dashboard.yaml
+  - ./longhorn-charts.yaml
   - ./metallb.yaml
   - ./metrics-server.yaml
+  - ./minio-charts.yaml
+  - ./prometheus-community-charts.yaml
   - ./stakater.yaml
+  - ./traefik-charts.yaml
   - ./weave-gitops.yaml

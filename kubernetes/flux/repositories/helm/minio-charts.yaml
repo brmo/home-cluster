@@ -2,8 +2,9 @@
 apiVersion: source.toolkit.fluxcd.io/v1beta2
 kind: HelmRepository
 metadata:
-  name: hajimari
+  name: minio-charts
   namespace: flux-system
 spec:
-  interval: 1h
-  url: https://hajimari.io
+  interval: 30m
+  url: https://operator.min.io
+  timeout: 3m
