@@ -1,11 +1,11 @@
 variable "ssh_key" {
-  default = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCuEI0jyq/LuNlAOg1J+Pfx3kWZ+r5Jh2vGtK2RxDqNnwTaU7EgDxrbHSkX4Dpe4OiIySFMX67oT1jjV4hNFZ5BvsNLzh9A4yajQR6xKamMc43bEKJhkvkWdaXKrT5OFPf8AmjvFZz+b1FsxWsKw/oCEwI8PshUcFZapqW4MDCqDQll65xKI1lXg6CTbIR6mhoe2eYn6drzFP5eOom74RLeX1G3KY2x5h3R5nCHJWwfp77ar5ou8CS3o4drNs96SKZvEOSBebvtOJtas79cN7wbJUYyXOBsO0/31HQAgg2JVGqkv/p3v1+rtBNPG8PQ9blO6+koPD1biZdzgrnsEcqVGoX9IHGUdJcRWfSyhPjKW6vDsCIuORmV35vcZBB5E20j/B4+BqhB3855zpH8jJlbly5leud+WbBZGoNuuzIopDIkp4ipkrmM0mmOsnpMqFLBe+7rCiKKRhwZY+LPTPZp/tRnzh7a682bSHywZxSxTrEudixV0uWJ78u+XUNVOIE= brmo@Brians-MacBook-Pro.local"
+  default = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDTyWD+bUC8iS/OL86dclYHlgyAE70hmU8/3aLHkzyqIMRag+NlwwAyMw13GhKl055Yeij0EYHc+hYPkNvPqdFhq2EZONX7BR3hcgkbkVuNE/ZAkxOsab1a3IxntQy2W++yDmFQaVhedOh12SROsntfON0XuU/xwzRLUjlMTPvVFEKBmb5QMLMR9bP3O29WBnG3OLUs3wepoKJD9qvVhjbwwsqzHi8u6fgnLt6TjDszf01ez/Vz5oYtsuT9udRrww76zXcLFYK5isfeARFQ7478HQsaSt7nSqJH5Wo4eHMyI4HVpZFaf5TcwsI71LPpyRLBcrWiHtBUzVCIFx4t6HdZrTPiawLKtkZuQhKyegRjku6d1uxKnJXNi1a7D0Y1Hsq19fma3MYvZrGMj9G9uAynyaIigJ2+0nygDTwNlvnkOPCB7qVK8ThDS9FPkXM0HhRRwxLjlSpoIR4vY3dXIAf0KhHy59AQkYNjaZB7GrmEfAheYwRJz92zym7+sP7i0Ic= brmo@xps9310"
 }
 
 variable "proxmox_host" {
-    default = "pve01"
+  default = "pve01"
 }
 
 variable "template_name" {
-    default = "debian-k3s-template-03Mar2023"
+  default = "debian-k3s-template-03Mar2023"
 }
