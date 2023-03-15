@@ -7,5 +7,5 @@ resources:
   - ./external-dns/ks.yaml
   - ./traefik/
   - ./k8s-gateway/ks.yaml
-  - ./error-pages/
+  # - ./error-pages/
   #- ./authelia/
