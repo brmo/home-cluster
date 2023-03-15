@@ -8,4 +8,4 @@ resources:
   - ./traefik/
   - ./k8s-gateway/ks.yaml
   - ./error-pages/
-  - ./authelia/
+  #- ./authelia/
