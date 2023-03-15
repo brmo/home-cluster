@@ -62,8 +62,8 @@ main() {
         sops --encrypt --in-place "${PROJECT_DIR}/kubernetes/apps/networking/external-dns/app/secret.sops.yaml"
 
         envsubst < "${PROJECT_DIR}/tmpl/kubernetes/longhorn-secrets.sops.yaml" \
-            > "${PROJECT_DIR}/kubernetes/apps/longhorn-system/longhorn-secrets.sops.yaml"
-        sops --encrypt --in-place "${PROJECT_DIR}/kubernetes/apps/longhorn-system/longhorn-secrets.sops.yaml"
+            > "${PROJECT_DIR}/kubernetes/apps/longhorn-system/longhorn-system/longhorn-secrets.sops.yaml"
+        sops --encrypt --in-place "${PROJECT_DIR}/kubernetes/apps/longhorn-system/longhorn-system/longhorn-secrets.sops.yaml"
 
         envsubst < "${PROJECT_DIR}/tmpl/terraform/secret.sops.yaml" \
             > "${PROJECT_DIR}/terraform/cloudflare/secret.sops.yaml"
